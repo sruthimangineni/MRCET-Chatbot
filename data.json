@@ -1,0 +1,176 @@
+{"intents": [
+        {
+			"tag": "greetings",
+			"patterns": ["hello",
+						 "hey",
+						 "hi",
+						 "good day",
+						 "Greetings",
+						 "what's up?",
+						 "how is it going?"],
+			"responses": ["Hello!",
+						  "Hey!",
+						  "What can I do for you?"]
+        },
+      
+        {
+			"tag": "name",
+			"patterns": ["what is your name",
+						 "name",
+						 "what's your name",
+						 "who are you",
+						 "what should I call you"],
+			"responses": ["You can call me MRCET chatbot",
+						  "I'm MRCET chatbot",
+						  "I'm MRCET chatbot your virtual assistant"]
+        },
+      
+        {
+            "tag": "course_details",
+            "patterns": [
+                "What courses do you offer?",
+                "Can you tell me more about the engineering courses?",
+                "I want to know about the computer science program",
+				"course details",
+				"courses"
+            ],
+            "responses": [
+                "We offer a range of engineering courses including civil, mechanical, electrical, and computer science engineering and MBA"]
+
+        },
+      
+        {
+			 "tag": "courseDuration",
+			 "patterns": ["how long will be engineering or MBA course", 
+						  "how long will it take to complete engineering or MBA course",
+						  "courseDuration"],
+			 "responses": ["Our college offers 4 year long engineering course and 2 year long for MBA course."]
+        },
+      
+        {
+			"tag": "Location",
+			"patterns": ["location",
+						 "where is it located",
+						 "what is the location of the college"],
+			"responses": ["Mallareddy college of engineering and technology, maisammaguda , Dhulapally (Post Via Komaplly) "]
+        },
+      
+        {
+			"tag": "semesters",
+			"patterns": ["how many semesters are there in a year",
+						 "how many semesters one should study in a year",
+						 "semesters"],
+			"responses": ["There are two semesters in a year."]
+        },
+		
+		{
+			"tag": "Total_Semesters",
+			"patterns": ["how many semesters are there in a engineering",
+						 "how many semesters one should study in a engineering",
+						 "Total Semesters"],
+			"responses": ["There are 8 semesters in a engineering."]
+        },
+      
+        {
+			"tag": "semDuration",
+			"patterns": ["how many months are there in a semester",
+						 "how long will be a single semester",
+						 "semDuration"],
+			"responses": ["The single semester will be around 4-5 months."]
+        },
+      
+        {
+            "tag": "admissions",
+            "patterns": ["How do I apply?",
+						 "What are the admission requirements?",
+						 "Can you tell me about the admission process?",
+						 "When do admissions open?"],
+            "responses": [
+                "Admissions open in April each year and you can apply through our online portal. For more details, visit our admissions page.",
+                "You must meet our academic and language requirements to apply. For detailed information, check the admissions section on our website."
+            ]
+        },
+      
+        {
+			"tag": "classes",
+			"patterns": ["how many classes will be there in a day",
+						 "how long are the classes?",
+						 "classes"],
+			"responses": ["There may be two or three classes and one lab per day. Each class will be of 1 hour and lab for 3 hours."]
+        },
+      
+        {
+			"tag": "exams",
+			"patterns": ["what are the exams like?",
+						 "What is the exam pattern",
+						 "exams"],
+			"responses": ["There are assignments which carry more weight in your written exams. The assignments have deadlines which you should not exceed if you want to get better marks."]
+        },
+      
+        {
+			"tag": "hours",
+			"patterns": ["what are your hours",
+						 "when are you guys open",
+						 "what your hours of operation",
+						 "hours"],
+			"responses": ["You can message us here at any hours. But our college premises will be open from 8:00 am to 6:00 pm only."]
+        },
+      
+        {
+			"tag": "funActivities",
+			"patterns": ["will there be any extra curriculum activities?",
+						 "does the college conducts any fun program",
+						 "funActivities"],
+			"responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+        },
+      
+        {
+			"tag": "facilities",
+			"patterns": ["what facilities are provided by the college?",
+						 "what are the facilities of college for students", 
+						 "what are the college infrastructures ",
+						 "facilities"],
+			"responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with AC, discusson room, canteen, parking space, and student service for any students queries."]
+        },
+      
+        {
+			"tag": "fee",
+			"patterns": ["how much is the college fee",
+						 "what is the fee structure",
+						 "fee",
+						 "fees"],
+			"responses": ["Course engineering\nAdmission fee=RS 95,000\n"]
+        },
+      
+        {
+			"tag": "goodbye",
+			"patterns": ["cya",
+						 "See you later",
+						 "Goodbye",
+						 "I am leaving",
+						 "Have a Good Day",
+						 "bye",
+						 "see ya"],
+			"responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+        },
+      
+        {
+			"tag": "invalid",
+			"patterns": ["",
+						 "gvsd",
+						 "asbhk"],
+			"responses": ["Sorry, can't understand you", 
+						  "Please give me more info", 
+						  "Not sure I understand"]
+        },
+      
+        {
+			"tag": "thanks",
+			"patterns": ["Thanks", 
+						 "Thank you", 
+						 "That's helpful", 
+						 "Awesome, thanks", 
+						 "Thanks for helping me"],
+			"responses": ["Happy to help!", "Any time!", "My pleasure"]
+        }
+      ]}
